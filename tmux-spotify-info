@@ -12,7 +12,7 @@ tell application "Spotify"
         "♫ " & artist_name & " - " & track_name
       else
         # If the track doesn't have an artist set and is therefore most likely an advert rather than a song
-        "~ " & artist_name
+        "~ " & track_name
       end if
     end if
   end if
