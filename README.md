@@ -14,7 +14,7 @@ Add the following to `~/.tmux.conf`
 set -g status-right '#(tmux-spotify-info)'
 ```
 
-Or for a more complete statusline like [the one I have](https://github.com/dickeyxxx/dotfiles/blob/master/home/.tmux.conf)
+Or for a more complete statusline like [the one I have](https://github.com/dickeyxxx/dotfiles/blob/master/tmux.conf)
 
 Other Tmux Plugins
 ==================
