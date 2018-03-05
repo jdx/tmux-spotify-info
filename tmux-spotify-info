@@ -6,6 +6,7 @@ tell application "Spotify"
     if player state is playing then
       set track_name to name of current track
       set artist_name to artist of current track
+      set track_name to do shell script "echo \"" & track_name & "\" | sed 's/([^)]*)//g'"
 
       if artist_name > 0
         # If the track has an artist set and is therefore most likely a song rather than an advert
